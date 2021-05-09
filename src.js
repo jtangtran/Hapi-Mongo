@@ -12,7 +12,7 @@ const init = async () => {
     await server.register({
         plugin: require('hapi-mongodb'),
         options: {
-          url: 'mongodb+srv://jen:12345Mongo@rest.vb8s5.mongodb.net/sample_mflix?retryWrites=true&w=majority',
+          url: 'mongodb+srv://<username>:<password>@rest.vb8s5.mongodb.net/sample_mflix?retryWrites=true&w=majority',
           settings: {
               useUnifiedTopology: true
           },
